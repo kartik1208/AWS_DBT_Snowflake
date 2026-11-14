@@ -1,0 +1,12 @@
+[0m00:32:28.953401 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000018A8085AFC0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000018A80052990>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000018A80051F70>]}
+
+
+============================== 00:32:28.959386 | 4e6e6552-a117-4c1f-b16b-a860fbfe21d6 ==============================
+[0m00:32:28.959386 [info ] [MainThread]: Running with dbt=1.12.7
+[0m00:32:28.960383 [debug] [MainThread]: running dbt with arguments {'static_parser': 'True', 'no_print': 'None', 'version_check': 'True', 'target_path': 'None', 'maximum_seed_size_mib': '1', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'printer_width': '80', 'write_json': 'True', 'introspect': 'True', 'log_cache_events': 'False', 'empty': 'None', 'cache_selected_only': 'False', 'fail_fast': 'False', 'debug': 'False', 'log_format': 'default', 'partial_parse': 'True', 'send_anonymous_usage_stats': 'True', 'quiet': 'False', 'warn_error': 'None', 'profiles_dir': 'C:\\Users\\ashish\\.dbt', 'indirect_selection': 'eager', 'hints_enabled': 'True', 'invocation_command': 'dbt init', 'use_experimental_parser': 'False', 'use_colors': 'True', 'log_path': 'logs'}
+[0m00:32:29.079701 [info ] [MainThread]: Creating dbt configuration folder at C:\Users\ashish\.dbt
+[0m00:33:09.542696 [debug] [MainThread]: Starter project path: C:\AWS_DBT_Snowflake\.venv\Lib\site-packages\dbt\include\starter_project
+[0m00:33:09.589057 [info ] [MainThread]: Setting up your profile.
+[0m00:33:18.847144 [debug] [MainThread]: Snowflake adapter: Setting snowflake.connector to ERROR (file logging only)
+[0m00:33:18.848141 [debug] [MainThread]: Snowflake adapter: Setting botocore to ERROR (file logging only)
+[0m00:33:18.848141 [debug] [MainThread]: Snowflake adapter: Setting boto3 to ERROR (file logging only)
